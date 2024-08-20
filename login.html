@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="LogStyle.css" />
+</head>
+<body>
+  <div class="login_form">
+    <form id="loginform" onsubmit="loginUser(event)">
+      <h3>Login Form</h3>
+      <div class="input_box">
+        <label for="email">Email</label>
+        <input type="email" id="loginEmail" placeholder="Enter email address" required />
+      </div>
+
+      <div class="input_box">
+        <div class="password_title">
+          <label for="password">Password</label>
+        </div>
+
+        <input type="password" id="loginPassword" placeholder="Enter your password" required />
+      </div>
+
+      <button type="submit">Login</button>
+
+    </form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
